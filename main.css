@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.photo {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+.card {
+  width: 250px;
+  border-radius: 0 0 0 25px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-content {
+  padding: 30px 18px 50px 18px;
+}
+.card-title {
+  font-family: Playfair Display;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.card-subtitle {
+  display: block;
+  color: rgb(194, 120, 29);
+  margin-bottom: 40px;
+}
+.card-info {
+  font-size: 14px;
+  line-height: 16px;
+}
+.card-botom {
+  display: flex;
+}
+.card-button {
+  display: block;
+  text-decoration: none;
+  background-color: rgb(194, 120, 29);
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 50px;
+  color: white;
+  flex-shrink: 0;
+}
+.items-card {
+  width: 100%;
+}
+.card-stocs {
+}
+.card-progres {
+  display: block;
+  height: 2px;
+  background-color: gray;
+}
